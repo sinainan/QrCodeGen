@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QrCodeGen:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QrCodeGen_jar</output-path>
+    <root id="archive" name="QrCodeGen.jar">
+      <element id="module-output" name="QrCodeGen" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/zxing-1.7-javase.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/zxing-core-2.0.jar" path-in-jar="/" />
+      <element id="library" level="project" name="mysql-connector-java-8.0.21" />
+      <element id="library" level="project" name="swingx-all-1.6.4" />
+    </root>
+  </artifact>
+</component>
