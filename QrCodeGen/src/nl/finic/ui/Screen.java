@@ -35,9 +35,6 @@ public class Screen extends JFrame{
         ImageIcon img = new ImageIcon("C:\\Users\\Sina Inan\\IdeaProjects\\QrCodeGen\\src\\nl\\finic\\qr-code.png");
         this.setIconImage(img.getImage());
 
-
-
-
         bGen.setBorder(BorderFactory.createEmptyBorder());
         bGen.setContentAreaFilled(false);
         bFile.setBorder(BorderFactory.createEmptyBorder());
@@ -47,6 +44,8 @@ public class Screen extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 createQr();
+                JOptionPane.showMessageDialog(null,"Qr-Code has been created","Done",1);
+                tLink.setText("");
             }
         });
 
